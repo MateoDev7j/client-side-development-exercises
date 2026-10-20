@@ -69,7 +69,9 @@ The code modules are detailed below, ordered incrementally by level of complexit
 ### 📫 Connect with me
 Do you have any advice or feedback on my code? Lets talk!
 
-[![GitHub](https://shields.io)](https://github.com)
+<a href="https://github.com" target="_blank" style="text-decoration: none; display: inline-block; vertical-align: middle;">
+  <img src="https://github.com/user-attachments/assets/5c9d0028-84c6-4561-83d8-1e9306bae17f" width="55" height="55" alt="GitHub Icon" style="border-radius: 50%; transition: transform 0.2s; display: block; margin: 0 auto;"/>
+</a>
 
 <!-- RECTÁNGULO FINAL DE CIERRE DE PÁGINA -->
 <div style="background: #F7DF1E; width: 100%; height: 8px; border-radius: 4px; margin-top: 25px;"></div>
