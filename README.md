@@ -1,6 +1,6 @@
 <div align="center">
 
-# Client-Side-Development-Exercises <img src="https://github.com/user-attachments/assets/396024e9-da6a-454e-91de-d3b0bc13439b" width="60" align="center" alt="JavaScript Switch GIF"/>
+# Client-Side-Development-Exercises <img src="https://github.com/user-attachments/assets/396024e9-da6a-454e-91de-d3b0bc13439b" width="100" height="75" align="center" alt="JavaScript Switch GIF"/>
 
 <!-- DIV RECTANGULAR DE SEPARACIÓN (Modifica el width/height o el background a tu gusto) -->
 <div style="background: linear-gradient(90deg, #F7DF1E 0%, #FFB000 100%); width: 100%; height: 6px; border-radius: 3px; margin: 15px 0 25px 0;"></div>
