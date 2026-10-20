@@ -1,6 +1,6 @@
 <div align="center">
 
-# Client-Side-Development-Exercises <!-- AQUÍ VA TU GIF DE JS: Reemplaza el enlace de abajo con el tuyo --> <img src="https://giphy.com" width="45" align="center" alt="JS GIF"/>
+# Client-Side-Development-Exercises <!-- AQUÍ VA TU GIF DE JS: Reemplaza el enlace de abajo con el tuyo --> <img src=["https://giphy.com" width="45" align="center"](https://cdn.hashnode.com/res/hashnode/image/upload/v1644404120908/SIp0Y6lSU.gif) alt="JS GIF"/>
 
 <!-- DIV RECTANGULAR DE SEPARACIÓN (Modifica el width/height o el background a tu gusto) -->
 <div style="background: linear-gradient(90deg, #F7DF1E 0%, #FFB000 100%); width: 100%; height: 6px; border-radius: 3px; margin: 15px 0 25px 0;"></div>
