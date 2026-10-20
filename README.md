@@ -21,7 +21,7 @@ This space is dedicated to **taking my programming logic to the next level**, do
 <div align="center">
   <!-- ESPACIO PARA TU PRIMER GIF/IMAGEN GRANDE DE BIENVENIDA O CONCEPTO -->
   <!-- Puedes reemplazar esta URL de marcador por un GIF de código animado o ilustración -->
-  <img src="https://giphy.com" width="60%" alt="Coding Overview" style="border-radius: 8px;"/>
+  <img width="1600" height="700" src="https://github.com/user-attachments/assets/78d21c82-2d29-4a47-a0f2-fb70fa2f813b" alt="Coding Overview" style="border-radius: 8px;"/>
 </div>
 
 <!-- OTRO DIV RECTANGULAR DE SEPARACIÓN -->
