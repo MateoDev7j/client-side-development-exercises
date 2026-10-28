@@ -1,0 +1,6 @@
+servicios firebase
+git+github
+trabajar api rest
+js plano
+frameworks-> vuejs React node poco de angular
+bd nosql-> mongodb 

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(83, 75, 75);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; 
+}*/
+
+/* Contenedor principal */
+.calculator {
+    width: 360px;
+    /*background-color: #ffffff;*/
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Pantalla */
+.display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #e0e0e0;
+    color: black;
+}
+
+/* Grid para posicionar los botones exactamente como la imagen */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* Estilo base para todos los botones */
+.btn {
+    height: 55px;
+    font-size: 18px;
+    /*background-color: #ffffff;
+    border: 1px solid #e5e5e5;*/
+    cursor: pointer;
+}
+
+/* Operadores de la primera fila */
+.btn-op {
+    /*background-color: #e0e0e0;*/
+    border: none;
+}
+
+/* Posicionamiento del botón de igual (columna 4, abarca de la fila 2 a la 5) */
+.btn-equal {
+    grid-column: 4;
+    grid-row: 2 / span 4;
+    height: 100%;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+}

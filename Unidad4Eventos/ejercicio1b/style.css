@@ -1,0 +1,53 @@
+/*@font-face {
+    font-family: 'Minecraft';
+    src: url('/fonts/minecraft_font.ttf') format('truetype'); /* El ../ es obligatorio aquí */
+    /*font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Aplicar la fuente a los elementos que quieras */
+/*body {
+    font-family: 'Minecraft', 'Courier New', Courier, monospace;
+    background-color: #61371F;
+    color: white;
+}*/
+body {
+    font-family: 'Minecraft', 'Minecraft Normal', sans-serif;
+    background-color: #61371F;
+    color: white;
+}
+/* Efecto opcional: Texto pixelado perfecto */
+.pixel-text {
+    font-family: 'Minecraft', sans-serif;
+    image-rendering: pixelated; /* Evita que se vea borrosa en algunos navegadores */
+    font-size: 16px; /* Las fuentes de píxeles se ven mejor en múltiplos de 8 o 16 */
+}
+.circulo {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+}
+button{
+    width: 100px;
+    height: 100px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-size: 4rem;
+}
+#volverJugarColorAleatorio{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+#volverJugarColorAleatorio:hover{
+        transition: step-start;
+        background-color: red;
+}
+#divAnchoVariable{
+    background-color: red;
+    height: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios-1b</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/Unidad4Eventos/ejercicio1b/index.js"></script>
+</head>
+<body>
+    <h1 id="pixel-text">Selecciona el color rojo</h1>
+    <div style="display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);">
+        <div style="background-color: red;" id="div1">
+            rojo
+        </div>
+        <div style="background-color: blue;" id="div2">
+            azul
+        </div>
+        <div style="background-color: green;" id="div3">
+            verde
+        </div>
+        <div style="background-color: yellow;" id="div4">
+            amarillo
+        </div>
+    </div>
+    
+    <h2 id="Resultado">Resulado:  </h2>
+    <h2>Version ALEATORIA</h2>
+    <h3 id="colorAleatorio">Color aleatorio: <span id="colorAleatorioSpan"></span></h3>
+    <div style="display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);">
+        <div style="background-color: red;" id="div1.1">
+            rojo
+        </div>
+        <div style="background-color: blue;" id="div2.2">
+            azul
+        </div>
+        <div style="background-color: green;" id="div3.3">
+            verde
+        </div>
+        <div style="background-color: yellow;" id="div4.4">
+            amarillo
+        </div>
+    </div>
+    <h2 id="ResultadoAleatorio">Resulado:  </h2><button id="volverJugarColorAleatorio">JUGAR DENUEVO</button>
+    <br>
+    <h2>El boton cambiante</h2>
+    <button id="btnCambiante" style="background-color: white;">Pasa el raton o hazme click</button>
+
+    <br>
+    <h2>Sigue la instruccion</h2>
+    presiona la tecla A: <input id="inputKey" type="text"><span id="letraCorrecta"></span>
+    <br>
+    <h2>Juego de reflejos</h2>
+    <div class="circulo" id="circuloCambiante"></div><span id="clickCorrectoCirculo"></span>
+    <br>
+    <h2>Atrapa el numero correcto </h2> <br><span id="numAleatorio">el numero aleatorio es: </span><br>
+    <br><button id="btn1" style="background-color: white;">1</button> <button id="btn2" style="background-color: white;">2</button>
+    <button id="btn3" style="background-color: white;">3</button> <button id="btn4" style="background-color: white;">4</button>
+    <button id="btn5" style="background-color: white;">5</button> <button id="btn6" style="background-color: white;">6</button>
+    <button id="btn7" style="background-color: white;">7</button> <button id="btn8" style="background-color: white;">8</button>
+    <button id="btn9" style="background-color: white;">9</button>
+    <br><span id="resultadoNumAleatorio"></span>
+    <br>
+    <br>
+    <h2>Simón dice (versión simple)</h2>
+    <button id="btnSimondice1"></button><button id="btnSimondice2"></button><button id="btnSimondice3"></button><button id="btnSimondice4"></button>
+    <br><span id="resultadoSimonDice"></span>
+    <br><br>
+    <h2>Carrera de botones</h2>
+    <div id="divAnchoVariable" style="width: 10px;"></div>
+    <button id="btnAvanzarCarreas"></button>
+    
+</body>
+</html>
