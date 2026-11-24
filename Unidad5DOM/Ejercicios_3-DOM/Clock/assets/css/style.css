@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(255, 183, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+.botones{
+    display: flex;
+}

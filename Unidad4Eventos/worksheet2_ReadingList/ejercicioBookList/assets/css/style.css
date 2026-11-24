@@ -1,0 +1,178 @@
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(0.25turn, #d8e2e7, #282d25, #d7ccbf);
+    text-align: center;
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+.boton-addbook{
+    width: 200px;
+}*/
+/* --- Variables de Color y Fuentes --- */
+:root {
+  --bg-color: #f9feff;
+  --card-bg: #ffffff;
+  --text-main: #2d3748;
+  --text-muted: #718096;
+  --primary: #4a5568;
+  --primary-hover: #2d3748;
+  --accent: #319795;
+  --border-color: #e2e8f0;
+  --radius: 8px;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* --- Estilos Generales --- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* --- Tipografía --- */
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+/* --- Formulario --- */
+.formulario-book {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.formulario-book label p {
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary);
+}
+
+.formulario-book input[type="text"],
+.formulario-book input[type="author"],
+.formulario-book input[type="genre"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.formulario-book input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(49, 151, 149, 0.15);
+}
+
+/* --- Botón --- */
+.boton-addbook {
+  width: 100%;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+.boton-addbook:hover {
+  background-color: #287977;
+}
+
+p strong {
+  font-size: 1.4rem;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 15px;
+}
+
+#contenedor-readinglist {
+  width: 100%;
+  max-width: 450px;
+  min-height: 50px;
+}
+
+.libro-item {
+  background: var(--card-bg);
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span:first-of-type {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+#booksRead {
+  background-color: var(--primary);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+.list-group-item{
+    list-style: none;
+}
+.my-0{
+    padding:0;
+    margin:0;
+    font-size: large;
+}
+.text-muted{
+    font-size: medium;
+}
+footer {
+  margin-top: auto;
+  padding-top: 40px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+}
